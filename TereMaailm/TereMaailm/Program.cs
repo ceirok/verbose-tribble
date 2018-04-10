@@ -13,6 +13,8 @@ namespace TereMaailm
             Console.WriteLine("Tere Maailm!");
 
             Console.WriteLine("Hello World!");
+
+            Console.WriteLine("Tere jälle!");
             
             Console.ReadLine();
         }
