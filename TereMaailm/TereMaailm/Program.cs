@@ -14,8 +14,10 @@ namespace TereMaailm
 
             Console.WriteLine("Hello World!");
 
-            Console.WriteLine("Tere jälle!");
-            
+            Console.WriteLine("Tere jälle!");          
+
+            Tervitaja.Tervita("Ceiro");
+
             Console.ReadLine();
         }
     }
