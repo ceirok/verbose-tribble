@@ -5,13 +5,14 @@ namespace TereMaailm
     {
         internal static void Tervita(string nimi)
         {
-            Console.WriteLine("Tere, " + nimi + "!");
+            Console.WriteLine("Tere " + nimi + "!");
         }
         internal static void Tervita(string[] nimi)
         {
+            Console.Write("Tere, ");
             for(int i = 0; i < nimi.Length; i++)
             {
-                Console.WriteLine("Tere, " + nimi[i]);
+                Console.Write(nimi[i] + ", ");
             }
         }
     }
